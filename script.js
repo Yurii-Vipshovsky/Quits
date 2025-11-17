@@ -1,11 +1,29 @@
+const BUILTIN_QUIZZES = [
+  // приклад:
+  { id: "vocab1", name: "Старі тести 230шт", path: "quiz.json" },
+  { id: "emergency", name: "Нові тести", path: "quiz1.json" },
+];
 
-async function loadQuiz() {
-  const res = await fetch('quiz.json', {cache:'no-store'});
-  if (!res.ok) throw new Error('Не вдалось завантажити quiz.json');
-  return await res.json();
+function $(sel) {
+  return document.querySelector(sel);
 }
 
-// Fisher-Yates shuffle
+function el(tag, attrs = {}, children = []) {
+  const node = document.createElement(tag);
+  Object.entries(attrs).forEach(([k, v]) => {
+    if (k === "class") node.className = v;
+    else if (k.startsWith("on") && typeof v === "function") node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v);
+  });
+  (Array.isArray(children) ? children : [children]).forEach(ch => {
+    if (ch == null) return;
+    if (typeof ch === "string") node.appendChild(document.createTextNode(ch));
+    else node.appendChild(ch);
+  });
+  return node;
+}
+
+// shuffle
 function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -15,165 +33,265 @@ function shuffle(arr) {
   return a;
 }
 
-function shuffleOptions(question) {
-  const opts = question.options.map((text, i) => ({
-    text,
-    isCorrect: i === (question.correctIndex ?? 0)
-  }));
-  // if shuffleOptions is false, keep order
-  const shuffled = question.shuffleOptions === false ? opts : shuffle(opts);
-  return shuffled;
-}
-
-function $(sel) { return document.querySelector(sel); }
-function el(tag, attrs={}, children=[]) {
-  const node = document.createElement(tag);
-  Object.entries(attrs || {}).forEach(([k,v]) => {
-    if (k === 'class') node.className = v;
-    else if (k.startsWith('on') && typeof v === 'function') node.addEventListener(k.slice(2), v);
-    else if (v !== undefined) node.setAttribute(k, v);
-  });
-  (Array.isArray(children) ? children : [children]).forEach(ch => {
-    if (ch === null || ch === undefined) return;
-    if (typeof ch === 'string') node.appendChild(document.createTextNode(ch));
-    else node.appendChild(ch);
-  });
-  return node;
-}
-
 const state = {
-  meta: null,
-  questions: [],        // [{text, options:[{text,isCorrect}], points}]
-  order: [],            // indices in display order
-  answers: {},          // qIdx -> selected option index
-  current: 0
+  rawQuestions: [],
+  activeQuestions: [],
+  answers: {},
+  current: 0,
+  title: "Тест із JSON-файлів"
 };
 
-function setupStart(meta) {
-  const total = meta.questions.length;
-  $('#title').textContent = meta.title || 'Тест';
-  $('#total').textContent = total;
-  $('#count').value = total;
-  $('#count').max = total;
+function initBuiltinSelect() {
+  const sel = $("#builtin-select");
+  BUILTIN_QUIZZES.forEach(q => {
+    const opt = document.createElement("option");
+    opt.value = q.id;
+    opt.textContent = q.name;
+    sel.appendChild(opt);
+  });
 }
 
-function startQuiz() {
-  const n = Math.max(1, Math.min(parseInt($('#count').value || 0, 10), state.meta.questions.length));
-  const base = state.meta.questions.map(q => ({
-    text: q.text,
-    options: shuffleOptions(q),
-    points: Number.isFinite(q.points) ? q.points : 1
-  }));
+function updateTotal() {
+  $("#total").textContent = state.rawQuestions.length;
+}
 
-  // Shuffle questions and take first n
-  state.order = shuffle([...Array(base.length).keys()]).slice(0, n);
-  state.questions = state.order.map(i => base[i]);
+function mergeQuestionsFromJson(data) {
+  if (!data) return;
+  const qs = Array.isArray(data.questions) ? data.questions : [];
+  qs.forEach(q => {
+    if (!q || !q.text || !Array.isArray(q.options) || q.options.length < 2) return;
+    state.rawQuestions.push({
+      text: String(q.text),
+      options: q.options.slice(),
+      correctIndex: typeof q.correctIndex === "number" ? q.correctIndex : null,
+      shuffleOptions: q.shuffleOptions !== false,
+      points: Number.isFinite(q.points) ? q.points : 1
+    });
+  });
+  if (data.title && typeof data.title === "string") {
+    state.title = data.title;
+  }
+  $("#title").textContent = state.title;
+  updateTotal();
+}
+
+function loadLocalFiles(files) {
+  if (!files || !files.length) return;
+  state.rawQuestions = [];
+  state.title = "Тест із JSON-файлів";
+  $("#title").textContent = state.title;
+
+  let remaining = files.length;
+  for (const file of files) {
+    const reader = new FileReader();
+    reader.onload = e => {
+      try {
+        const json = JSON.parse(e.target.result);
+        mergeQuestionsFromJson(json);
+      } catch (err) {
+        console.error("Помилка парсингу JSON з файлу", file.name, err);
+      } finally {
+        remaining -= 1;
+        if (remaining === 0) {
+          updateTotal();
+        }
+      }
+    };
+    reader.readAsText(file, "utf-8");
+  }
+}
+
+async function loadBuiltinById(id) {
+  const item = BUILTIN_QUIZZES.find(x => x.id === id);
+  if (!item) {
+    alert("Не знайдено вбудований тест з таким ID");
+    return;
+  }
+  try {
+    const res = await fetch(item.path, { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    state.rawQuestions = [];
+    state.title = data.title || item.name || "Тест";
+    $("#title").textContent = state.title;
+    mergeQuestionsFromJson(data);
+  } catch (e) {
+    console.error(e);
+    alert("Не вдалося завантажити вбудований тест: " + e.message);
+  }
+}
+
+function prepareQuiz() {
+  const total = state.rawQuestions.length;
+  if (!total) {
+    alert("Немає завантажених питань. Спочатку обери файли або вбудований тест.");
+    return false;
+  }
+  let n = parseInt($("#count").value || "0", 10);
+  if (!Number.isFinite(n) || n <= 0) n = total;
+  if (n > total) n = total;
+
+  const order = shuffle([...Array(total).keys()]).slice(0, n);
+  state.activeQuestions = order.map(i => {
+    const q = state.rawQuestions[i];
+    const opts = q.options.map((text, idx) => ({
+      text: String(text),
+      isCorrect: q.correctIndex === idx
+    }));
+    const finalOptions = q.shuffleOptions !== false ? shuffle(opts) : opts;
+    const newCorrectIndex = finalOptions.findIndex(o => o.isCorrect);
+    return {
+      text: q.text,
+      options: finalOptions,
+      correctIndex: newCorrectIndex >= 0 ? newCorrectIndex : null,
+      points: q.points
+    };
+  });
+
   state.answers = {};
   state.current = 0;
-
-  $('#start-card').style.display = 'none';
-  $('#quiz-card').style.display = 'block';
-  renderQuestion();
-  updateProgress();
+  return true;
 }
 
 function updateProgress() {
-  const n = state.questions.length;
+  const n = state.activeQuestions.length;
   const answered = Object.keys(state.answers).length;
-  $('#progress-label').textContent = `${answered}/${n}`;
-  const pct = Math.round((answered / n) * 100);
-  $('#progressbar').style.width = pct + '%';
+  $("#progress-label").textContent = answered + "/" + n;
+  const pct = n ? Math.round((answered / n) * 100) : 0;
+  $("#progressbar").style.width = pct + "%";
 }
 
 function renderQuestion() {
   const i = state.current;
-  const q = state.questions[i];
-  $('#q-counter').textContent = `Питання ${i+1} з ${state.questions.length}`;
-  $('#q-text').textContent = q.text;
+  const q = state.activeQuestions[i];
+  $("#q-counter").textContent = "Питання " + (i + 1) + " з " + state.activeQuestions.length;
+  $("#q-text").textContent = q.text;
 
   const selected = state.answers[i];
-  const list = $('#options');
-  list.innerHTML = '';
+  const list = $("#options");
+  list.innerHTML = "";
+
   q.options.forEach((opt, j) => {
-    const id = `q${i}_o${j}`;
-    const radio = el('input', {type:'radio', name:'opt', id});
+    const id = "q" + i + "_o" + j;
+    const radio = el("input", { type: "radio", name: "opt", id: id });
     if (selected === j) radio.checked = true;
-    radio.addEventListener('change', () => {
+    radio.addEventListener("change", () => {
       state.answers[i] = j;
       updateProgress();
     });
 
-    const label = el('label', {'for':id});
-    label.appendChild(el('div', {class:'option'}, [
+    const label = el("label", { for: id });
+    label.appendChild(el("div", { class: "option" }, [
       radio,
-      el('div', {}, [opt.text])
+      el("div", {}, opt.text)
     ]));
     list.appendChild(label);
   });
 
-  // nav buttons
-  $('#prev').disabled = i === 0;
-  $('#next').disabled = i === state.questions.length - 1;
+  $("#prev").disabled = i === 0;
+  $("#next").disabled = i === state.activeQuestions.length - 1;
 }
 
-function prevQ() { if (state.current > 0) { state.current--; renderQuestion(); } }
-function nextQ() { if (state.current < state.questions.length - 1) { state.current++; renderQuestion(); } }
+function prevQ() {
+  if (state.current > 0) {
+    state.current -= 1;
+    renderQuestion();
+  }
+}
+
+function nextQ() {
+  if (state.current < state.activeQuestions.length - 1) {
+    state.current += 1;
+    renderQuestion();
+  }
+}
 
 function submitQuiz() {
-  const n = state.questions.length;
+  const n = state.activeQuestions.length;
   let score = 0;
   const review = [];
 
   for (let i = 0; i < n; i++) {
-    const q = state.questions[i];
+    const q = state.activeQuestions[i];
     const ans = state.answers[i];
-    const correctIdx = q.options.findIndex(o => o.isCorrect);
-    const ok = ans === correctIdx;
+    const correctIdx = q.correctIndex;
+    const ok = typeof correctIdx === "number" && ans === correctIdx;
     if (ok) score += q.points;
-    review.push({ q: q.text, options: q.options, ans, correctIdx, ok, points: q.points });
+    review.push({
+      q: q.text,
+      options: q.options,
+      ans,
+      correctIdx,
+      ok,
+      points: q.points
+    });
   }
 
-  $('#quiz-card').style.display = 'none';
-  $('#result-card').style.display = 'block';
-  $('#score').textContent = `${score}`;
+  $("#quiz-card").style.display = "none";
+  $("#loader-card").style.display = "none";
+  $("#result-card").style.display = "block";
 
-  const totalPoints = state.questions.reduce((s,q)=>s+q.points,0);
-  $('#total-points').textContent = `${totalPoints}`;
+  $("#score").textContent = String(score);
+  const totalPoints = state.activeQuestions.reduce((s, q) => s + q.points, 0);
+  $("#total-points").textContent = String(totalPoints);
 
-  const reviewWrap = $('#review');
-  reviewWrap.innerHTML = '';
+  const wrap = $("#review");
+  wrap.innerHTML = "";
   review.forEach((r, idx) => {
-    const head = el('div', {}, [
-      el('span', {class:'badge'}, r.ok ? 'правильно' : 'неправильно'),
-      ' ',
-      el('span', {class:'small'}, `балів: ${r.ok ? r.points : 0}/${r.points}`)
+    const head = el("div", {}, [
+      el("span", { class: "badge" }, r.ok ? "правильно" : "неправильно"),
+      " ",
+      el("span", { class: "small" }, "балів: " + (r.ok ? r.points : 0) + "/" + r.points +
+        (r.correctIdx == null ? " (correctIndex не заданий)" : ""))
     ]);
-    const title = el('div', {style:'margin:6px 0; font-weight:600;'}, `${idx+1}. ${r.q}`);
-    const ul = el('div', {});
-
+    const title = el("div", { style: "margin:6px 0;font-weight:600;" }, (idx + 1) + ". " + r.q);
+    const list = el("div", {});
     r.options.forEach((o, j) => {
-      const row = el('div', {class: 'review-item ' + (j===r.correctIdx?'correct': (r.ans===j && !o.isCorrect ? 'wrong':''))}, [
-        el('div', {}, o.text),
-        el('div', {class:'small muted'}, j===r.correctIdx ? 'правильна' : (r.ans===j ? 'ваша відповідь' : ''))
+      const cls =
+        j === r.correctIdx ? "review-item correct" :
+        (r.ans === j && r.correctIdx != null && !o.isCorrect ? "review-item wrong" : "review-item");
+      const info =
+        j === r.correctIdx ? "правильна" :
+        (r.ans === j ? "ваша відповідь" : "");
+      const row = el("div", { class: cls }, [
+        el("div", {}, o.text),
+        el("div", { class: "small muted" }, info)
       ]);
-      ul.appendChild(row);
+      list.appendChild(row);
     });
 
-    const item = el('div', {class:'card'}, [head, title, ul]);
-    reviewWrap.appendChild(item);
+    const card = el("div", { class: "card" }, [head, title, list]);
+    wrap.appendChild(card);
   });
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-  try {
-    const meta = await loadQuiz();
-    state.meta = meta;
-    setupStart(meta);
-    $('#start').addEventListener('click', startQuiz);
-    $('#prev').addEventListener('click', prevQ);
-    $('#next').addEventListener('click', nextQ);
-    $('#submit').addEventListener('click', submitQuiz);
-  } catch (e) {
-    document.body.innerHTML = '<div class="container"><div class="card"><h2>Помилка</h2><p>'+e.message+'</p></div></div>';
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  initBuiltinSelect();
+  updateTotal();
+
+  $("#file-input").addEventListener("change", e => {
+    loadLocalFiles(e.target.files);
+  });
+
+  $("#load-builtin").addEventListener("click", () => {
+    const id = $("#builtin-select").value;
+    if (!id) {
+      alert("Вибери вбудований тест зі списку або використай локальні файли.");
+      return;
+    }
+    loadBuiltinById(id);
+  });
+
+  $("#start").addEventListener("click", () => {
+    if (!prepareQuiz()) return;
+    $("#loader-card").style.display = "none";
+    $("#quiz-card").style.display = "block";
+    $("#result-card").style.display = "none";
+    renderQuestion();
+    updateProgress();
+  });
+
+  $("#prev").addEventListener("click", prevQ);
+  $("#next").addEventListener("click", nextQ);
+  $("#submit").addEventListener("click", submitQuiz);
 });
