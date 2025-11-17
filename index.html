@@ -2,27 +2,65 @@
 <html lang="uk">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Тест – рандомізатор</title>
+    <title>Тест із JSON-файлів</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="container">
       <header>
-        <h1 id="title">Тест</h1>
-        <div class="muted">локальний сайт з рандомізацією питань та відповідей</div>
+        <div>
+          <h1 id="title">Тест із JSON-файлів</h1>
+          <div class="muted">
+            Обери один або кілька JSON-файлів з питаннями. Правильна відповідь задається полем correctIndex.
+          </div>
+        </div>
       </header>
 
-      <div id="start-card" class="card">
-        <h2>Почати тест</h2>
-        <p class="muted">Усього питань: <span id="total">–</span></p>
-        <div class="controls" style="margin: 10px 0 16px;">
-          <label>Кількість питань
+      <div class="card" id="loader-card">
+        <h2>Завантаження питань</h2>
+
+        <div class="section">
+          <h3>Варіант 1. Локальні JSON-файли</h3>
+          <p class="small">
+            Обери один або кілька файлів .json з диска. Усі питання з них будуть обʼєднані в один тест.
+          </p>
+          <input id="file-input" type="file" accept=".json,application/json" multiple>
+        </div>
+
+        <div class="section">
+          <h3>Варіант 2. Вбудовані тести (опційно)</h3>
+          <p class="small">
+            Якщо покладеш JSON-файли в репозиторій, можеш прописати їх у script.js в масиві BUILTIN_QUIZZES
+            і вибирати тут з випадаючого списку.
+          </p>
+          <div class="controls">
+            <select id="builtin-select">
+              <option value="">Не вибрано</option>
+              <!-- опції підтягнуться з script.js, якщо ти їх пропишеш -->
+            </select>
+            <button id="load-builtin" class="secondary">Завантажити вбудований тест</button>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="section">
+          <label>
+            Кількість питань у спробі
             <input id="count" type="number" value="10" min="1" step="1">
           </label>
-          <button id="start" class="primary">Старт</button>
+          <div class="controls">
+            <button id="start" class="primary">Почати тест</button>
+          </div>
+          <p class="small">
+            Спочатку обери файли або вбудований тест, потім натисни "Почати тест".
+            Питання та варіанти будуть перемішані.
+          </p>
+          <p class="small">
+            Завантажено питань: <span id="total">0</span>
+          </p>
         </div>
-        <p class="small">Порада – можна проходити частинами. Питання та варіанти щоразу перемішуються.</p>
       </div>
 
       <div id="quiz-card" class="card" style="display:none;">
@@ -31,7 +69,7 @@
         <hr>
         <div id="q-counter" class="muted"></div>
         <h3 id="q-text"></h3>
-        <div id="options" style="margin-top: 10px;"></div>
+        <div id="options" style="margin-top:10px;"></div>
         <div class="q-footer">
           <button id="prev" class="secondary">Назад</button>
           <div style="flex:1"></div>
@@ -42,7 +80,12 @@
 
       <div id="result-card" class="card" style="display:none;">
         <h2>Результат</h2>
-        <p>Ваш бал: <span id="score">0</span> з <span id="total-points">0</span></p>
+        <p>
+          Ваш бал: <span id="score">0</span> з <span id="total-points">0</span>
+        </p>
+        <p class="small">
+          Якщо у деяких питаннях correctIndex був null або відсутній, вони не будуть зараховані як правильні.
+        </p>
         <h3>Розбір</h3>
         <div id="review" class="summary" style="margin-top:10px;"></div>
       </div>
