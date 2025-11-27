@@ -1,6 +1,8 @@
 const BUILTIN_QUIZZES = [
   // приклад:
   { id: "emergencyPreparation", name: "Долікарська підготовка нова", path: "quiz3.json" },
+  { id: "sport", name: "Sport med", path: "sport_med_quiz.json" },
+  
 ];
 
 function $(sel) {
