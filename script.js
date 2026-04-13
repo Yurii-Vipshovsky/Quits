@@ -2,7 +2,7 @@ const BUILTIN_QUIZZES = [
   // приклад:
   { id: "emergencyPreparation", name: "Долікарська підготовка нова", path: "quiz3.json" },
   { id: "sport", name: "Sport med", path: "sport_med_quiz.json" },
-  { id: "FT", name: "Обстеження, методи оцінки та контролю ФТ", path: "Test.json" },
+  { id: "FT", name: "Теорія і методика фізичного виховання", path: "Test1.json" },
   
 ];
 
