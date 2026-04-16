@@ -1,7 +1,7 @@
 const BUILTIN_QUIZZES = [
   // приклад:
   { id: "emergencyPreparation", name: "мануальні методи", path: "quiz6.json" },
-  { id: "sport", name: "медична реабілітація", path: "quiz5.json" },
+  { id: "sport", name: "масаж", path: "quizM.json" },
   { id: "FT", name: "Теорія і методика фізичного виховання", path: "Test1.json" },
   
 ];
