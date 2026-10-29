@@ -1,0 +1,2389 @@
+{
+  "title": "Vocabulary quiz – A is correct",
+  "questions": [
+    {
+      "text": "• Доповніть закінченням діагноз:\"tumor malign… - злоякісна пухлина\":",
+      "options": [
+        "us",
+        "is",
+        "a",
+        "ae",
+        "i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть закінченням діагноз \"oedema … - набряк обличчя:",
+      "options": [
+        "faciei",
+        "facies",
+        "faciem",
+        "facie",
+        "facierum 202 Доповніть закінченнями діагноз \"tumor man... dextr... - пухлина правої кисті\"::",
+        "us; ae",
+        "ae; ae",
+        "i; i",
+        "is; ae",
+        "i; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть закінченнями діагноз \"herpes labi… inferior… - герпес нижньої губи \":",
+      "options": [
+        "i; is",
+        "ae; is",
+        "is; is",
+        "i; es",
+        "a; a"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте кінцевий терміноелемент до терміна \"osteo…— розм’якшення кісток\":",
+      "options": [
+        "-malacia",
+        "-algesia",
+        "-phillia",
+        "-chylia",
+        "-odynia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть переклад терміна \"pantophobia\":",
+      "options": [
+        "боязнь всього",
+        "боязнь висоти",
+        "боязнь смерті",
+        "боязнь захворіти",
+        "боязнь людей"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте словотворчий елемент \"…mastia — аномально великі грудні залози\"",
+      "options": [
+        "macr-",
+        "melan-",
+        "iso-",
+        "sapr-",
+        "xanth-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Допишіть кінцевий терміноелемент \"brachy…— короткоголовість\":",
+      "options": [
+        "-cephalia",
+        "-gnathia",
+        "-sphygmia",
+        "-podia",
+        "-dactylia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть термін \"anamnesis morb… - анамнез хвороби\":",
+      "options": [
+        "i",
+        "is",
+        "es",
+        "ae",
+        "um"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Лікарські форми, призначені для прийому всередину, позначаються:",
+      "options": [
+        "ad usum internum",
+        "ad usum externum",
+        "pro dosi",
+        "pro die",
+        "pro injectionibus"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинська назва лікарської форми «розчин»:",
+      "options": [
+        "solutio",
+        "pulvis",
+        "unguentum",
+        "suppositorium",
+        "infusum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинська назва лікарської форми «настоянка»:",
+      "options": [
+        "tinctura",
+        "infusum",
+        "solutio",
+        "extractum",
+        "decoctum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Яка форма дієслова завершує латинську частину рецепта:",
+      "options": [
+        "Signa",
+        "Recipe",
+        "Verte",
+        "Repete",
+        "Da"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Як перекладається латинською мовою іменник «мазь»:",
+      "options": [
+        "unguentum",
+        "emulsum",
+        "solutio",
+        "suppositorium",
+        "decoctum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть фармацевтичний термін \"tabulett… acid… ascorbinic… - таблетки аскорбінової кислоти\":",
+      "options": [
+        "ae; i; i",
+        "i; i; i",
+        "ae; i; ae",
+        "es; is; is",
+        "es; ae; ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте пропущене закінчення у рецепті: Recipe: Phenazepami 0,0005 Da tales doses N50 in tabulett…",
+      "options": [
+        "is",
+        "es",
+        "ibus",
+        "am",
+        "ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть загальноприйнятне латинське скорочення лікарської форми «порошок»:",
+      "options": [
+        "pulv.",
+        "pul.",
+        "p.",
+        "pul.-is",
+        "pulver."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть фармацевтичний термін \"tabulett… Calci… gluconat… - таблетки кальцію глюконату\":",
+      "options": [
+        "ae; i; is",
+        "i; i; i",
+        "ae; i; i",
+        "es; is; is",
+        "es; ae; ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення для фармацевтичного терміна \"flor… Chamomill… - квітки ромашки\":",
+      "options": [
+        "es; ae",
+        "is; ae",
+        "us; i",
+        "es; i",
+        "ae; ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте пропущені закінчення у рецепті: Recipe: Speci… sedativ… 100,0",
+      "options": [
+        "erum; arum",
+        "is; is",
+        "ei; ae",
+        "ae; ae",
+        "es; ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення для фармацевтичного терміна \"succus Alo… - сік алое\" :",
+      "options": [
+        "es",
+        "i",
+        "ae",
+        "us",
+        "is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинський термін \"solutio Ammonii caustici \" перекладається:",
+      "options": [
+        "нашатирний спирт",
+        "розчин брильянтового зеленого",
+        "нашатирно-ганусові краплі",
+        "розчин фурациліну",
+        "краплі для носа"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт закінченнями: Recipe: Spirit… aethylic… 70% — 50 ml",
+      "options": [
+        "us; i",
+        "i; i",
+        "i; ae",
+        "is; is",
+        "es; es"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт закінченнями: Recipe: Solutionis Dibazol… 5 ml Da tales doses N20 in ampul…",
+      "options": [
+        "i; is",
+        "um; ae",
+        "is; o",
+        "i; i",
+        "i; as"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинський переклад терміна «брильянтовий зелений» :",
+      "options": [
+        "Viride nitens",
+        "bolus alba",
+        "liquor Ammonii anisatus",
+        "spiritus camphoratus",
+        "carbo activatus"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт закінченнями: Recipe: Solution… Lincomycin… hydrochlorid… 30% — 1 ml Da tales doses N2 in ampulli",
+      "options": [
+        "A. is; i; i",
+        "i; i; i",
+        "is; is; a",
+        "is; ae; ae",
+        "es; i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад терміна \"знижений артеріальний тиск\":",
+      "options": [
+        "hypotonia",
+        "hypothermia",
+        "hypomnesia",
+        "hyposmia",
+        "hypoxia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад терміна \" теча з вуха\":",
+      "options": [
+        "otorrhoea",
+        "otorrhagia",
+        "otoscopia",
+        "otorrhaphia",
+        "otitis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад терміна \"прискорене дихання\":",
+      "options": [
+        "tachypnoe",
+        "tachysystolia",
+        "tachycardia",
+        "tachykinesia",
+        "tachysphygmia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін \"оперативне відновлення функції суглобів\" перекладається:",
+      "options": [
+        "arthroplastica",
+        "arthralgia",
+        "arthrodesis",
+        "arthrotomia",
+        "arthropathia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад терміна \"зменшення числа лейкоцитів у крові\":",
+      "options": [
+        "leucopenia",
+        "leucotrichia",
+        "leuconychia",
+        "leucorrhagia",
+        "leucopathia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть фармацевтичний термін \"… dos… - на один прийом, разова доза\":",
+      "options": [
+        "pro; i",
+        "ad; im",
+        "per; ibus",
+        "cum; e",
+        "sine; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад терміна \"наука про вивчення і лікування шкіри\":",
+      "options": [
+        "dermatologia",
+        "dermatopathia",
+        "dermatitis",
+        "dermatologus",
+        "dermatomycosis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть переклад терміна «стирання»:",
+      "options": [
+        "abrasio",
+        "applicatio",
+        "accumulatio",
+        "combustio",
+        "deformatio"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вислів «Хто шукає, той знаходить» латинською перекладається:",
+      "options": [
+        "Qui quaerit, reperit.",
+        "Dum spiro, spero.",
+        "Si sapis, sis apis.",
+        "Ne noceas, si juvare non potes.",
+        "Fide, sed cui vide."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Узгодьте іменник granuloma, atis n з прикметником subcutaneus, a, um - granuloma subcutane… - підшкірна гранульома\":",
+      "options": [
+        "um",
+        "a",
+        "us",
+        "es",
+        "is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть слово, в якому наголос падає на другий склад від кінця:",
+      "options": [
+        "columna",
+        "hepatĭcus",
+        "arteriŏla",
+        "muscŭlus",
+        "mobĭlis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть значення латинського іменника \"tunica, ae f\":",
+      "options": [
+        "оболонка",
+        "шия",
+        "крило",
+        "лопатка",
+        "гребінь"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть іменник II відміни:",
+      "options": [
+        "nervus, i m",
+        "abscessus, us m",
+        "examinatio, onis n",
+        "ulcus, eris n",
+        "syncope, es f"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть словникову форму іменника \" lichen, … ... - лишай\":",
+      "options": [
+        "enis m",
+        "inis n",
+        "atis f",
+        "is m",
+        "eris n"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Визначте відміну іменника \"neoplasma, atis, i n*:",
+      "options": [
+        "III",
+        "I",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть термін з неузгодженим означенням:",
+      "options": [
+        "fractura vertebrae",
+        "bronchitis acuta",
+        "facies leonina",
+        "otalgia dentalis",
+        "sepsis oralis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть прикметник, що узгоджується з іменником \"facies,ei f\":",
+      "options": [
+        "interna",
+        "cerebrale",
+        "asper",
+        "externum",
+        "nasale"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть словникову форму прикметника \"sanabilis, …\":",
+      "options": [
+        "e",
+        "is, e",
+        "a, um",
+        "i, ae",
+        "ae, um"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення іменника для прийменникового виразу \"in cut… - на шкірі\":",
+      "options": [
+        "e",
+        "am",
+        "is",
+        "as",
+        "ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення іменника та прикметника для прийменникового виразу \"in pulmon… sinistr…- на ліву легеню\":",
+      "options": [
+        "em; um",
+        "um; um",
+        "o; e",
+        "is; is",
+        "i; o"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У якому ряду подаються лише слова грецького походження:",
+      "options": [
+        "apophysis, haemorrhagia, phlegmone",
+        "lupus, skeleton, ruptura",
+        "rhaphe, ostium, cancer",
+        "dens, basis, hepar",
+        "maxilla, costa, sphenoidalis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть іменник IV відміни:",
+      "options": [
+        "sinus, us m",
+        "articulatio, onis f",
+        "humerus, i m",
+        "mandibula, ae f",
+        "facies, ei f"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Прикметники III відміни з двома родовими закінченнями мають у No",
+      "options": [
+        "Sing. такі родові закінчення:",
+        "is, e",
+        "us, er; a; um",
+        "er; is; e",
+        "s, r, x",
+        "er; a; e"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть іменник II відміни, що стоїть у Ge",
+      "options": [
+        "Plur.:",
+        "musculorum",
+        "ligamenta",
+        "nervo",
+        "oculum",
+        "encephali"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть прикметник, що узгоджується з іменником \"regio\":",
+      "options": [
+        "frontalist",
+        "submandibulare",
+        "pulmonale",
+        "sinistrum",
+        "dexter"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• До якої відміни належить іменник \"phlegmone, es f\" :",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Як вимовляється дифтонг у слові \"aegrotus\":",
+      "options": [
+        "е",
+        "о",
+        "oe",
+        "ае",
+        "a"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте закінчення до узгодженого означення \"oculus dext… - праве око\":",
+      "options": [
+        "er",
+        "a",
+        "e",
+        "us",
+        "um"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Іменник \"chole, es f \" належить до відміни:",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення іменника для прийменникового виразу \"sub scapul… -.під лопатку\":",
+      "options": [
+        "am",
+        "a",
+        "ae",
+        "is",
+        "as"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Іменник dyspnoë, es f належить до відміни:",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У якому відмінку стоїть термін \"vasorum lymphaticorum\" :",
+      "options": [
+        "Gen. Plur.",
+        "Dat. Sing.",
+        "Nom. Plur.",
+        "Acc. Sing.",
+        "Abl. Sing."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть ряд, у якому всі іменники відмінюються за мішаним типом:",
+      "options": [
+        "unguis, is m; axis, is m; phalanx, ngis f",
+        "pater, tris m; cartilago, inis f; gaster, tris f",
+        "frons, frontis f; ren, renis m; cor, cordis n",
+        "articulatio, onis f; margo, inis m; coccyx, ygis m",
+        "caput, itis n; auris, is f; canalis, is m"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть вищий ступінь порівняння прикметника \"magnus:і\"",
+      "options": [
+        "major",
+        "malus",
+        "pessimus",
+        "plurimus",
+        "maximus"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Форми найвищого ступеня порівняння прикметників чоловічого роду утворюються за допомогою суфікса:",
+      "options": [
+        "issim",
+        "ior",
+        "ius",
+        "al",
+        "ar"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін immunitas означає:",
+      "options": [
+        "звільнення, позбавлення від чого небудь",
+        "збереження",
+        "сила",
+        "здоров’я",
+        "обов’язок"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинський термін symptoma означає:",
+      "options": [
+        "ознака, симптом",
+        "хвороба",
+        "збіг",
+        "пам’ять",
+        "властивість"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинський термін syndromum означає:",
+      "options": [
+        "комплекс симптомів",
+        "випадковість",
+        "ознака",
+        "хвороба",
+        "обов’язок"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть латинський термін, який відповідає українському «глибокий сон»:",
+      "options": [
+        "coma",
+        "stupor",
+        "dolor",
+        "tremor",
+        "tumor"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть термін зі значенням «падіння»:",
+      "options": [
+        "collapsus",
+        "coma",
+        "anamnesis",
+        "sopor",
+        "stupor"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Латинський термін preventivus перекладається як:",
+      "options": [
+        "запобіжний",
+        "початковий",
+        "ніжний",
+        "правильний",
+        "попередній"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін decubitus перекладається як:",
+      "options": [
+        "пролежень",
+        "розрив",
+        "вивих",
+        "перелом",
+        "відшарування"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін conservativus перекладається як:",
+      "options": [
+        "зберігаючий",
+        "докорінний",
+        "простий",
+        "послідовний",
+        "оперативний"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін implantatio перекладається як:",
+      "options": [
+        "пересадка тканин і органів",
+        "укорінення",
+        "внесення",
+        "поглинання",
+        "заміщення"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Слово verificatio перекладається як:",
+      "options": [
+        "підтвердження, перевірка",
+        "правдивий",
+        "неправдивий",
+        "сумнівний",
+        "істина"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «важка анемія»:",
+      "options": [
+        "anaemia gravis",
+        "anaemia acuta",
+        "anaemia neonatorum",
+        "anaemia spuria",
+        "anaemia chronica"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть термін зі значенням «найкращий прогноз»:",
+      "options": [
+        "prognosis optima",
+        "prognosis pessima",
+        "prognosis bona",
+        "prognosis mala",
+        "prognosis dubia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «набряк гортані»:",
+      "options": [
+        "oedema laryngis",
+        "oedema pharyngis",
+        "oedema malignum",
+        "oedema pulmonum",
+        "oedema renale"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу \"herpes simplex\":",
+      "options": [
+        "простий герпес",
+        "заїда",
+        "герпес губи",
+        "герпес фебрильний",
+        "червоний лишай"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «гостре запалення мигдаликів»:",
+      "options": [
+        "tonsillitis acuta",
+        "tonsillitis purulenta",
+        "tonsillitis chronica",
+        "tonsillitis pharyngea",
+        "tonsillotomia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «змертвілий дерматит»:",
+      "options": [
+        "dermatitis gangraenosa",
+        "dermatitis allergica",
+        "dermatitis infectiosa",
+        "dermatitis traumatica",
+        "dermatitis medicamentosa"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу \"angulus infectiosus\":",
+      "options": [
+        "заїда",
+        "травматичний дерматит",
+        "свербіж шкіри",
+        "широка кондилома",
+        "червоний лишай"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «госпітальна пневмонія»:",
+      "options": [
+        "pneumonia nosocomialis",
+        "pneumonia focalis",
+        "pneumonia crouposa",
+        "pneumonia alba",
+        "pneumonia innosocomialis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «тремтіння повіки»:",
+      "options": [
+        "tremor palpebrae",
+        "tremor capitis",
+        "tremor digitorum",
+        "tremor manus",
+        "tremor linguae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть діагноз, у якому вказано припущення щодо стану хвороби:",
+      "options": [
+        "suspicio quoad fracturam mandibulae",
+        "fractura manus inveterata",
+        "vulnus cordis recens",
+        "cicatrices veteres post operationem",
+        "dolor capitis transitorius"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово, що стоїть в Imperativus:",
+      "options": [
+        "misce",
+        "docet",
+        "dant",
+        "solvit",
+        "dormire"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово III дієвідміни:",
+      "options": [
+        "solvit",
+        "habēre",
+        "auscultat",
+        "audiunt",
+        "repetunt"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Essentiale 5 ml Da tales doses N5 in ampull…",
+      "options": [
+        "is",
+        "a",
+        "ae",
+        "as",
+        "ibus"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть однослівний еквівалент терміна \"amputatio mammae\":",
+      "options": [
+        "mastectomia",
+        "hysterectomia",
+        "gastrectomia",
+        "cholecystectomia",
+        "gingivectomia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть український переклад терміна kinesitherapia:",
+      "options": [
+        "лікування рухами",
+        "лікування повітрям",
+        "запалення м’язів",
+        "перекручення смаку",
+        "запаморочення"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть клінічний діагноз \"ruptura cord… interna - внутрішній розрив серця\"",
+      "options": [
+        "is",
+        "ae",
+        "i",
+        "e",
+        "a"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть латинський переклад клінічного діагнозу «закрита травма черепа»:",
+      "options": [
+        "trauma cranii clausum",
+        "trauma cerebri complicata",
+        "vulnus capitis sclopetarium",
+        "traumata cranii aperta",
+        "laesio cranii periculosa"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть клінічний діагноз \"fractura cost… -перелом ребра\":",
+      "options": [
+        "ae",
+        "us",
+        "um",
+        "is",
+        "E"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово, що стоїть в Imperativus:",
+      "options": [
+        "repete",
+        "finit",
+        "errat",
+        "nutriunt",
+        "vertere"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово II дієвідміни:",
+      "options": [
+        "videt",
+        "dat",
+        "finiunt",
+        "recipe",
+        "ausculta"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Codeini phosphat… 0,2 Infusi herb… Adonidis vernalis 6,0–180 ml",
+      "options": [
+        "is; ae",
+        "ae; ae",
+        "ae; i",
+        "um; i",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Unguent… Apisarhron… 50,0",
+      "options": [
+        "i; i",
+        "ae; ae",
+        "is; i",
+        "i; um",
+        "um; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте назву рослини в рецепті: Recipe: Tincturae полину fluidi 30 ml",
+      "options": [
+        "Absinthii",
+        "Hyperici",
+        "Plantaginis",
+        "Aloes",
+        "Adonidis vernalis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть латинський переклад клінічного діагнозу «гостре запалення підшлункової залози»:",
+      "options": [
+        "pancreatitis acuta",
+        "appendicitis catarrhalis",
+        "cholecystitis chronica",
+        "cholangitis purulenta",
+        "gastroduodenitis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть латинський переклад терміна «рак стравоходу»:",
+      "options": [
+        "cancer oesophagi",
+        "cancer ventriculi",
+        "neoplasma faciei malignum",
+        "cancer intestini tenuis",
+        "cancer recti"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Дієслівна форма repete перекладається:",
+      "options": [
+        "повтори",
+        "повторює",
+        "повторіть",
+        "повторюють",
+        "нехай вони повторять"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Яка з поданих форм перекладається як «нехай стерилізує»:",
+      "options": [
+        "steriliset",
+        "sterilizate",
+        "sterilisa",
+        "sterilisant",
+        "sterilisatur"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Tabulett… Spasmalgon… N10",
+      "options": [
+        "as; i",
+        "ae; is",
+        "is; i",
+        "i; i",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Tinctur… Calendul… 50 ml",
+      "options": [
+        "ae; ae",
+        "ae; i",
+        "is; i",
+        "i; i",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Rp.: Ferri reducti 0,5 Acid… ascorbinic… 0,1",
+      "options": [
+        "i; i",
+        "i; ae",
+        "is; is",
+        "ae; ae",
+        "um; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте назву рослини в рецепті: Recipe: Succi алое 100 ml",
+      "options": [
+        "Aloes",
+        "Hyperici",
+        "Plantaginis",
+        "Adonidis vernalis",
+        "Urticae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть український переклад терміна \"glykaemia\":",
+      "options": [
+        "наявність цукру у крові",
+        "наявність жовчі у крові",
+        "сечокрів’я",
+        "недокрів’я",
+        "зменшений вміст цукру у крові"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть латинський переклад терміна «недостатня кількість еритроцитів у крові»:",
+      "options": [
+        "erythrocytopenia",
+        "erythrophobia",
+        "erythropoesis",
+        "leucopenia",
+        "erythema"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть фармацевтичний частотний відрізок, який вказує на \"снодійну дію\" препарату:",
+      "options": [
+        "hypn-",
+        "angi-",
+        "cyclin-",
+        "-alg-",
+        "-cid-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово, що стоїть в Imperativus:",
+      "options": [
+        "curate",
+        "praeparant",
+        "dignoscuntur",
+        "secat",
+        "formatur"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово IV дієвідміни:",
+      "options": [
+        "nutriunt",
+        "palpat",
+        "sterilisa",
+        "adhibetur",
+        "video"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть форму 3-ї особи множини Praesens indicativi passivi:",
+      "options": [
+        "audiuntur",
+        "miscet",
+        "praeparant",
+        "audi",
+        "fiat"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Яка з поданих форм перекладається «він лікує»:",
+      "options": [
+        "curat",
+        "docent",
+        "dormit",
+        "sume",
+        "valent"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Infus… radic… Valerianae ex 10,0–200 ml",
+      "options": [
+        "i; is",
+        "ae; ae",
+        "as; i",
+        "is; ae",
+        "i; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Unguent… Ichthyol… 10% 25,0",
+      "options": [
+        "i; i",
+        "ae; ae",
+        "ae; i",
+        "is; i",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Dermatol… Methylii salicylat…",
+      "options": [
+        "i; is",
+        "is; is",
+        "ae; ae",
+        "um; um",
+        "um; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте назву рослини в рецепті: Recipe: Corticis крушини… 10,0",
+      "options": [
+        "Frangulae",
+        "Hyperici",
+        "Plantaginis",
+        "Adonidis vernalis",
+        "Urticae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який прислівник вживається у рецепті, коли кількість речовини визначає фармацевт:",
+      "options": [
+        "quantum satis",
+        "cito",
+        "gratis",
+        "ana",
+        "statim"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть однослівний еквівалент терміна \"sectio cadaveris - розтин трупа\":",
+      "options": [
+        "autopsia",
+        "necrophobia",
+        "thanatologia",
+        "thanatophobia",
+        "necrosis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент має значення «солодкий»:",
+      "options": [
+        "glyc(k)-",
+        "malac-",
+        "pan-",
+        "tachy-",
+        "brachy-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть український переклад терміна \"cephalalgia\":",
+      "options": [
+        "біль голови",
+        "біль верхньої щелепи",
+        "біль обличчя",
+        "біль зуба",
+        "біль багатьох суглобів"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть латинський переклад терміна «наявність крові у сечі»:",
+      "options": [
+        "haematuria",
+        "uraemia",
+        "anaemia",
+        "spermaturia",
+        "dysuria"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть фармацевтичний частотний відрізок, що означає \"знеболювальну дію\":",
+      "options": [
+        "-alg-",
+        "pyr-",
+        "angi-",
+        "hypn-",
+        "-cid-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть засіб, що впливає на функцію щитоподібної залози:",
+      "options": [
+        "Thyrotropinum",
+        "Antipyrinum",
+        "Bicillinum",
+        "Antidol",
+        "Cortisonum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який кінцевий терміноелемент означає «лікування»:",
+      "options": [
+        "-therapia",
+        "-iatria",
+        "-logia",
+        "-graphia",
+        "-scopia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть клінічний діагноз \"rhinitis allergic…- алергічний риніт\":",
+      "options": [
+        "a",
+        "es",
+        "is",
+        "ae",
+        "us"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть фармацевтичний термін \"Solutio Virid… nitent… - розчин брильянтового зеленого\":",
+      "options": [
+        "is; is",
+        "i; i",
+        "ae; ae",
+        "i; is",
+        "e; ens"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово I дієвідміни:",
+      "options": [
+        "sterilisant",
+        "finiunt",
+        "dormi",
+        "valere",
+        "sumitur"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Anaesthesin… 5,0 Vaselin… ad 100,0 Misce, fiat pasta D",
+      "options": [
+        "Signa.",
+        "i; i",
+        "ae; ae",
+        "as; i",
+        "is; ae",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Ferr… reduct… 1,0",
+      "options": [
+        "i; i",
+        "ae; ae",
+        "i; um",
+        "um; um",
+        "i; is"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть рецепт: Recipe: Acid… acetylsalicylic… 0,5",
+      "options": [
+        "i; i",
+        "ae; i",
+        "is; is",
+        "ae; ae",
+        "um; i"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Додайте назву рослини в рецепті: Recipe: Extracti глоду fluidi 25 ml",
+      "options": [
+        "Crataegi",
+        "Hyperici",
+        "Plantaginis",
+        "Frangulae",
+        "Adonidis vernalis • Вкажіть український переклад терміна \"pseudoicterus\":",
+        "несправжня жовтяниця",
+        "зниження слиновиділення",
+        "поліартрит",
+        "сухість кон’юнктиви",
+        "несправжня лейкемія"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть латинський переклад терміна «несправжнє білокрів’я»:",
+      "options": [
+        "pseudoleukaemia",
+        "leukaemia",
+        "uraemia",
+        "anaemia",
+        "oligaemia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який префікс означає «половину»:",
+      "options": [
+        "hemi-",
+        "a(n)-",
+        "hyper-",
+        "hypo-",
+        "dys-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Яке значення має префікс per-:",
+      "options": [
+        "переміщення в просторі, через, поза",
+        "відсутність",
+        "назад",
+        "за чимось",
+        "усередині"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть фармацевтичний відрізок, що вказує на \"жовчогінну дію\":",
+      "options": [
+        "chol-",
+        "angi-",
+        "hypn-",
+        "sed-",
+        "-cid-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть \"антимікробний засіб\":",
+      "options": [
+        "Microcidum",
+        "Tetracyclinum",
+        "Mycoseptinum",
+        "Neomycinum",
+        "Valocordinum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть клінічний діагноз \"hyperaesthesia cut… - підвищена чутливість шкіри\":",
+      "options": [
+        "is",
+        "es",
+        "i",
+        "ae",
+        "us Виберіть латинський переклад «перелом лівого стегна»:",
+        "fractura femoris sinistri",
+        "ruptura venae",
+        "fractura femoris dextri",
+        "ruptura ligamenti dextri",
+        "vulnus morsum femoris"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Переклад прислівника \"порівну, в днаковій кількості\"",
+      "options": [
+        "ana",
+        "quantum satis",
+        "pro die",
+        "ad usum internum",
+        "statim"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У клінічному діагнозі використано термін \"polyarthritis chronica deformans - деформуючий хронічний артрит\". Який терміноелемент вказує на множинність ураження?",
+      "options": [
+        "poly-",
+        "pan-",
+        "dys-",
+        "hyper-",
+        "oligo-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У рецепті вказано \"Misce, fiat linimentum - змішай, нехай утвориться лінімент\". Яка граматична форма дієслова fiat?",
+      "options": [
+        "Coniunctivus Praesens, 3 особа однини",
+        "Imperativus, 2 особа множини",
+        "Indicativus Praesens",
+        "Infinitivus",
+        "Supinum"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У діагнозі \"ulcus ventriculi perforatum\" визначте рід іменника ulcu",
+      "options": [
+        "A. середній рід",
+        "чоловічий рід",
+        "жіночий рід",
+        "спільний рід",
+        "невизначений"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У діагнозі \"fractura ossis femoris dextri - перелом кістки правого стегна\".Визначте відмінок іменника ossi",
+      "options": [
+        "A. Gen. Sing.",
+        "Nom. Sing.",
+        "Acc. Sing.",
+        "Abl. Sing.",
+        "Dat. Plur."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент у слові \"hypoglykaemia\" вказує на зниження показника?",
+      "options": [
+        "hypo-",
+        "hyper-",
+        "dys-",
+        "a-",
+        "peri-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У рецепті використано вираз \"Dentur tales doses N10\". Яка граматична форма дієслова dentur?",
+      "options": [
+        "Coniunctivus Praesentis Passivi, 3 особа множини",
+        "Imperativus",
+        "Indicativus Praesens",
+        "Infinitivus",
+        "Participium"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У рецепті \"Misce, ut fiat unguentum\". Яке значення має конструкція ut fiat?",
+      "options": [
+        "щоб утворилась",
+        "нехай змішають",
+        "змішати мазь",
+        "мазь утворюється",
+        "утворювати мазь"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• У діагнозі \"insufficientia cordis chronica congestiva\" визначте відмінок слова cordi",
+      "options": [
+        "A. Gen. Sing.",
+        "Nom. Sing.",
+        "Acc. Sing.",
+        "Abl. Sing.",
+        "Nom. Plur."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент у слові \"tachycardia\" вказує на прискорення?",
+      "options": [
+        "tachy-",
+        "brady-",
+        "hypo-",
+        "dys-",
+        "pan-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент у слові \"bradycardia\" вказує на уповільнення?",
+      "options": [
+        "brady-",
+        "tachy-",
+        "dys-",
+        "hyper-",
+        "hypo-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Що означає fiat у рецепті?",
+      "options": [
+        "нехай утвориться",
+        "змішай",
+        "дай",
+        "повтори",
+        "познач"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Що означає per rectum?",
+      "options": [
+        "через пряму кишку",
+        "через рот",
+        "зовнішньо",
+        "внутрішньо",
+        "інгаляційно"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент означає «запалення»?",
+      "options": [
+        "-itis",
+        "-osis",
+        "-oma",
+        "-algia",
+        "-pathia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Що означає cito у рецепті?",
+      "options": [
+        "швидко",
+        "порівну",
+        "за потреби",
+        "всередину",
+        "Зовнішньо"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який префікс означає «порушення»?",
+      "options": [
+        "dys-",
+        "hyper-",
+        "hypo-",
+        "peri-",
+        "anti-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Що означає pro injectionibus?",
+      "options": [
+        "для ін’єкцій",
+        "для внутрішнього застосування",
+        "для зовнішнього застосування",
+        "для інгаляцій",
+        "для прийому всередину"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Який терміноелемент означає «подрібнення»?",
+      "options": [
+        "-tripsia",
+        "-algia",
+        "-ptosis",
+        "-thermia",
+        "-dypsia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Грецький дублет латинського слова “ren”:",
+      "options": [
+        "nephr-",
+        "cardi-",
+        "hepat-",
+        "oste-",
+        "gastr-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Кінцевий терміноелемент -itis означає:",
+      "options": [
+        "Запалення",
+        "Пухлина",
+        "Біль",
+        "Розростання",
+        "Порушення"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Суфікс -osis означає:",
+      "options": [
+        "Хронічний патологічний процес або дегенерацію",
+        "Гостре запалення",
+        "Пухлину",
+        "Травму",
+        "Інфекцію"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть клінічний діагноз \"ruptura cord… interna\"",
+      "options": [
+        "–is",
+        "–ae",
+        "–i",
+        "–e",
+        "–a"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть слово, в якому наголос падає на другий склад від кінця:",
+      "options": [
+        "therapia",
+        "gastrectomia",
+        "arteriŏla",
+        "muscŭlus",
+        "mobĭlis"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Визначте відміну іменника encephalon, i n:",
+      "options": [
+        "II",
+        "I",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть прикметник, що узгоджується з іменником facies:",
+      "options": [
+        "interna",
+        "cerebrale",
+        "asper",
+        "externum",
+        "Nasale"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Доповніть словникову форму прикметника \"occipitalis, ...\":",
+      "options": [
+        "–e",
+        "–is, -e",
+        "–a, -um",
+        "–i, -ae",
+        "–ae, -um"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення іменника для прийменникового виразу \"in cut…- на шкірі':",
+      "options": [
+        "–е",
+        "–am",
+        "–is",
+        "–as",
+        "–ae"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення для виразу \"in clavicul… sinistr…\":",
+      "options": [
+        "–a; -a",
+        "–um; -um",
+        "–o; -o",
+        "–is; -is",
+        "–i; -o"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть прикметник, узгоджений з іменником \"regio\":",
+      "options": [
+        "hepatica",
+        "submandibulare",
+        "pulmonale",
+        "sinistrum",
+        "dexter"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Іменник diabetes, ae m належить до:",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть закінчення \"intra vena… - у вену, внутрішньовенно\":",
+      "options": [
+        "–ām",
+        "–a",
+        "–ae",
+        "–is",
+        "–as"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Іменник \"diastole,es \"f належить до відміни:",
+      "options": [
+        "I",
+        "III",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін «vasorum lymphaticorum»:",
+      "options": [
+        "Gen.Plur.",
+        "Dat.Sing.",
+        "Nom.Plur.",
+        "Acc.Sing.",
+        "Abl.Sing."
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін percussio означає:",
+      "options": [
+        "простукування",
+        "збереження",
+        "промацування",
+        "здоров’я",
+        "обов’язок"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін morbus означає:",
+      "options": [
+        "хвороба",
+        "збіг",
+        "ознака",
+        "пам'ять",
+        "властивість"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін tetanus означає:",
+      "options": [
+        "правець",
+        "сказ",
+        "ознака",
+        "хвороба",
+        "обов’язок"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін «глибокий сон»:",
+      "options": [
+        "coma",
+        "stupor",
+        "dolor",
+        "tremor",
+        "Tumor"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Термін decubitus -це:",
+      "options": [
+        "пролежень",
+        "розрив",
+        "вивих",
+        "перелом",
+        "відшарування"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Implantatio перекладається:",
+      "options": [
+        "пересадка",
+        "видалення",
+        "внесення",
+        "поглинання",
+        "заміщення"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово в Imperativus:",
+      "options": [
+        "da",
+        "docet",
+        "dant",
+        "solvit",
+        "dormire"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть дієслово ІІ дієвідміни:",
+      "options": [
+        "habere",
+        "audire",
+        "auscultare",
+        "solvere",
+        "sanare"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть грецький дублет до латинського іменника manus:",
+      "options": [
+        "cheir",
+        "brachium",
+        "digitus",
+        "palma",
+        "Manus"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть грецький дублет до латинського іменника dies:",
+      "options": [
+        "hemera",
+        "chronos",
+        "tempus",
+        "hora",
+        "Lux"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Виберіть переклад діагнозу «запалення нирки»:",
+      "options": [
+        "nephritis",
+        "nephrosis",
+        "nephroma",
+        "nephralgia",
+        "Nephropathia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть числівниковий префікс зі значенням «два»:",
+      "options": [
+        "bi-",
+        "tri-",
+        "mono-",
+        "poly-",
+        "hemi-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть числівниковий префікс зі значенням «половина»:",
+      "options": [
+        "hemi-",
+        "mono-",
+        "bi-",
+        "tri-",
+        "poly-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть грецький дублет до латинського займенника «сам»:",
+      "options": [
+        "auto-",
+        "hetero-",
+        "homo-",
+        "iso-",
+        "pan-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть грецький дублет до латинського прислівника «разом»:",
+      "options": [
+        "syn-",
+        "dis-",
+        "per-",
+        "sub-",
+        "inter-"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    },
+    {
+      "text": "• Вкажіть переклад терміна«запалення мозку»:",
+      "options": [
+        "encephalitis",
+        "encephalocele",
+        "meningitis",
+        "meningocele",
+        "encephalopathia"
+      ],
+      "correctIndex": 0,
+      "shuffleOptions": true,
+      "points": 1
+    }
+  ]
+}
