@@ -1,13 +1,13 @@
 const BUILTIN_QUIZZES = [
   // приклад:
   { id: "emergencyPreparation", name: "New3", path: "quiz17.json" },
-  { id: "emergencyPreparation", name: "New_1", path: "quiz1.json" },
-  { id: "emergencyPreparation", name: "New_2", path: "quiz2.json" },
-  { id: "emergencyPreparation", name: "New_3", path: "quiz3.json" },
-  { id: "emergencyPreparation", name: "New_4", path: "quiz4.json" },
-  { id: "emergencyPreparation", name: "New_5", path: "quiz5.json" },
-  { id: "emergencyPreparation", name: "New_6", path: "quiz6.json" },
-  { id: "emergencyPreparation", name: "New_7", path: "quiz7.json" },
+  { id: "emergencyPreparation1", name: "New_1", path: "quiz1.json" },
+  { id: "emergencyPreparation2", name: "New_2", path: "quiz2.json" },
+  { id: "emergencyPreparation3", name: "New_3", path: "quiz3.json" },
+  { id: "emergencyPreparation4", name: "New_4", path: "quiz4.json" },
+  { id: "emergencyPreparation5", name: "New_5", path: "quiz5.json" },
+  { id: "emergencyPreparation6", name: "New_6", path: "quiz6.json" },
+  { id: "emergencyPreparation7", name: "New_7", path: "quiz7.json" },
 ];
 
 function $(sel) {
